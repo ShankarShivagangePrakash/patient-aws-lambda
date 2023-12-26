@@ -1,5 +1,17 @@
 # patientcheckout
 
+
+This project has demonstrated below things:
+- Asynchronous Lambda 
+- Invoke Lambda from S3,
+- Push the events from Lambda to SNS Topic, 
+- SNS Topic invoking lambda
+- SQS demo, SQS invoking lambda, 
+- cold start and multi thread demo
+- Dead letter Queue
+- !Ref, !GetAtt, !Sub AWS intrinsic functions.
+
+
 This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.
 
 - HelloWorldFunction/src/main - Code for the application's Lambda function.
